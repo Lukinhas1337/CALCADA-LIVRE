@@ -1,0 +1,6 @@
+cenario,iluminacao,tentativa,esperado,detectado,tempo_reacao_ms,observacao
+obstaculo_a_15cm,claro,1,vermelho + 2 bips + manobra,ok,,video IMG_6560 (bancada): mao perto do ultrassonico gerou OBSTACULO/MANOBRA
+trecho_escuro,claro,1,amarelo + 1 bip,ok,,video IMG_6560: LDR sombreado gerou ESCURO e LED amarelo
+trecho_escuro,escuro,1,amarelo + 1 bip,ok,,video IMG_6560: sala escura gerou ESCURO (luz ~44 a 66)
+obstaculo_no_escuro,escuro,1,vermelho piscando + alarme continuo,ok,,video IMG_6560: RISCO_ALTO e ESPERA_RISCO no Serial
+falha_ldr,claro,1,modo seguro e recupera,ok,,video IMG_6564: FALHA e SEGURO apos ~3 s com LDR coberto; FALHA_OK ao descobrir
