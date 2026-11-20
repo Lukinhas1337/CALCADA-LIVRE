@@ -69,17 +69,17 @@ Resultados registrados:
 
 | Cenario | Iluminacao | Tentativas | Acertos | Taxa | Tempo medio de reacao |
 |---|---|---|---|---|---|
-| falha_ldr | claro | 1 | 1 | 100% | - |
-| obstaculo_a_15cm | claro | 1 | 1 | 100% | - |
-| obstaculo_no_escuro | escuro | 1 | 1 | 100% | - |
-| trecho_escuro | claro | 1 | 1 | 100% | - |
-| trecho_escuro | escuro | 1 | 1 | 100% | - |
+| falha_ldr | claro | 1 | 1 | 100% |3 segundos |
+| obstaculo_a_15cm | claro | 1 | 1 | 100% | 2 segundos |
+| obstaculo_no_escuro | escuro | 1 | 1 | 100% | 2 segundos |
+| trecho_escuro | claro | 1 | 1 | 100% | 1 a 2 segundos |
+| trecho_escuro | escuro | 1 | 1 | 100% | 2 a 3 segundos |
 
 Calibração real: referência de luz 212 (limite de escuro 106) e 355 (limite 177); valores completos em [`docs/calibracao.md`](docs/calibracao.md).
 
 Em um dos vídeos o relatório mostra `6 falha(s)`: ao cobrir o LDR por completo por mais de 3 s a leitura vai a 0, e o programa trata isso como falha do sensor.
 
-## Critérios da professora e onde estão as evidências
+
 | Critério | Evidência |
 |---|---|
 | Funcionalidade do sensor (instalação, leituras confiáveis, uso dos dados) | LDR na protoboard (voltado para cima), calibração automática, filtros e histerese; `docs/calibracao.md`, `docs/limiares.md` |
@@ -102,8 +102,6 @@ fotos em `docs/fotos/` (abaixo)
 | Serial: FALHA, SEGURO e FALHA_OK | Serial: relatório da rota |
 | ![Teste no chão de cerâmica](docs/fotos/07_teste_no_chao_ceramica.jpg) | ![Teste no chão de madeira](docs/fotos/08_teste_no_chao_madeira.jpg) |
 | Teste no chão (cerâmica) | Teste no chão (madeira) |
-
-> **Sobre IA:** a professora Thais orientou no Teams que a aplicação de IA **não é cobrada** nesta disciplina ([print](docs/orientacao_professora.png)).
 
 ## Limitações conhecidas
 - O robô **não tem GPS**: o trecho é identificado pelo código da rota; o log sai por cabo USB.
