@@ -112,4 +112,4 @@ fotos em `docs/fotos/` (abaixo)
 
 ## Histórico e entrega
 Etapa 1 (chassi, requisitos e planejamento): [`docs/etapa1_chassi.md`](docs/etapa1_chassi.md) · Modelo 3D do chassi da Etapa 1: `hardware/modelo_chassi_etapa1.scad`.
-Checklist: [`docs/checklist_entrega.md`](docs/checklist_entrega.md).
+
