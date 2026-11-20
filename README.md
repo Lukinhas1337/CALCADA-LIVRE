@@ -12,7 +12,7 @@ Evolução do robô 4WD da disciplina (Etapa 1) com um **sensor adicional de lum
 | Lucas Bandeira | 98640 |
 | Carlos Ganzerli | 99840 |
 
-**🎥 Vídeo demonstrativo (até 6 min):** PREENCHER (link do YouTube) · **Repositório:** PREENCHER
+**🎥 Vídeo demonstrativo:** https://www.youtube.com/watch?v=qYwktwOcAdI
 
 ## O problema (CitizenTech)
 Calçadas com obstáculos e trechos mal iluminados limitam a circulação de pedestres, especialmente idosos e pessoas com deficiência. Segundo o Censo 2022 do IBGE, o Brasil tem **14,4 milhões de pessoas com deficiência** ([IBGE, Agência de Notícias](https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/43463-censo-2022-brasil-tem-14-4-milhoes-de-pessoas-com-deficiencia)). Hoje esses problemas costumam ser conhecidos só depois de uma reclamação.
